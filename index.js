@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import { AnswersRouter } from './routes/answer.js';
 import { QuestionRouter } from './routes/question.js';
 import { userRouter } from './routes/users.js';
+import cors from "cors";
 
 dotenv.config();
 const app = express();
