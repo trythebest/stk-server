@@ -7,6 +7,8 @@ import { userRouter } from './routes/users.js';
 
 dotenv.config();
 const app = express();
+app.use(cors())
+
 
 const url = process.env.mongo_url;
 const Port = process.env.PORT;
